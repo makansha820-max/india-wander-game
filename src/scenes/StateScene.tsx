@@ -1,6 +1,6 @@
-import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState, Component, type ReactNode } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Environment, Text } from "@react-three/drei";
+import { Text } from "@react-three/drei";
 import { Physics } from "@react-three/rapier";
 import * as THREE from "three";
 import { getGameState, getNextState } from "../data/gameStates";
@@ -243,7 +243,7 @@ function GameLevel({
         shadow-camera-bottom={-18}
       />
       <fog attach="fog" args={["#d9cbb4", 24, 55]} />
-      <Environment preset="sunset" />
+      {/* Local lights only — no external HDR (blocked by CSP on Vercel) */}
 
       <Text
         position={[0, 4.5, 0]}
@@ -276,14 +276,47 @@ function GameLevel({
         />
       </Physics>
 
-      <Suspense fallback={null}>
-        <StopLayer worldStops={worldStops} collectedIds={collectedIds} />
-        <TrailCoinLayer trails={trails} collectedIds={collectedTrails} />
-      </Suspense>
+      <StopLayer worldStops={worldStops} collectedIds={collectedIds} />
+      <TrailCoinLayer trails={trails} collectedIds={collectedTrails} />
       <CopLayer plazas={plazaPositions.slice(0, 2)} />
       <FriendNPC />
       <JungleTargets enabled={state.jungleAdventure} />
     </>
+  );
+}
+
+class SceneErrorBoundary extends Component<
+  { children: ReactNode; onBack: () => void },
+  { error: string | null }
+> {
+  state = { error: null as string | null };
+
+  static getDerivedStateFromError(error: Error) {
+    return { error: error.message || "Scene failed to load" };
+  }
+
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="loading-map" style={{ padding: "2rem", textAlign: "center" }}>
+          <p>Couldn’t open this adventure.</p>
+          <p style={{ color: "#fca5a5", fontSize: "0.9rem" }}>{this.state.error}</p>
+          <button type="button" className="btn-ghost" onClick={this.props.onBack}>
+            Back to Hub
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
+function CanvasLoader() {
+  return (
+    <mesh>
+      <boxGeometry args={[0.6, 0.6, 0.6]} />
+      <meshStandardMaterial color="#f5c842" wireframe />
+    </mesh>
   );
 }
 
@@ -336,19 +369,24 @@ export function StateScene({ slug, onExit, onStateComplete }: StateSceneProps) {
 
   return (
     <div className="state-scene">
-      <Canvas
-        key={`${slug}-${runKey}`}
-        shadows
-        camera={{ position: [0, 12, 14], fov: 50, near: 0.1, far: 80 }}
-      >
-        <Suspense fallback={null}>
-          <GameLevel
-            slug={slug}
-            onStateComplete={onStateComplete}
-            onRestartLevel={() => setRunKey((k) => k + 1)}
-          />
-        </Suspense>
-      </Canvas>
+      <SceneErrorBoundary onBack={onExit}>
+        <Canvas
+          key={`${slug}-${runKey}`}
+          shadows
+          camera={{ position: [0, 12, 14], fov: 50, near: 0.1, far: 80 }}
+          onCreated={({ gl }) => {
+            gl.setClearColor("#d9cbb4");
+          }}
+        >
+          <Suspense fallback={<CanvasLoader />}>
+            <GameLevel
+              slug={slug}
+              onStateComplete={onStateComplete}
+              onRestartLevel={() => setRunKey((k) => k + 1)}
+            />
+          </Suspense>
+        </Canvas>
+      </SceneErrorBoundary>
 
       <HUD
         state={state}
