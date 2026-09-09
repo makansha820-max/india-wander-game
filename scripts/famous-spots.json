@@ -1,0 +1,1238 @@
+{
+  "rajasthan": [
+    {
+      "stopName": "Jaipur",
+      "name": "Jaipur",
+      "whyGo": "The Pink City — Rajasthan Tourism’s capital destination.",
+      "paceNote": "Amber one morning, walled city another. Not a three-palace heat stack."
+    },
+    {
+      "stopName": "Jaipur",
+      "name": "Ajmer",
+      "whyGo": "Dargah pilgrimage city on the official destination grid.",
+      "paceNote": "Plains extra from Jaipur. Cover shoulders. Not with Amber the same day."
+    },
+    {
+      "stopName": "Jaipur",
+      "name": "Pushkar",
+      "whyGo": "Lake town of fairs and one of India’s oldest temples.",
+      "paceNote": "Ajmer–Pushkar pair only if the day stayed short. Vegetarian lake precinct."
+    },
+    {
+      "stopName": "Jaipur",
+      "name": "Alwar",
+      "whyGo": "Gateway city of palaces and forts — official listing.",
+      "paceNote": "Own overnight or a long extra. Not a Jaipur afternoon."
+    },
+    {
+      "stopName": "Jaipur",
+      "name": "Bharatpur",
+      "whyGo": "Eastern gateway; Keoladeo wetland landscape.",
+      "paceNote": "Level bird morning. Own night if you add it."
+    },
+    {
+      "stopName": "Jaipur",
+      "name": "Sawaimadhopur",
+      "whyGo": "Official gateway to Ranthambore.",
+      "paceNote": "One jeep, own lodge night. Not a Jaipur day trip if tired."
+    }
+  ],
+  "madhya-pradesh": [
+    {
+      "stopName": "Indore",
+      "name": "Indore",
+      "whyGo": "Cleanest-city / food city on IIT Indore’s visitor list.",
+      "paceNote": "Arrive and sit. No Mandu on day one if the flight was long."
+    },
+    {
+      "stopName": "Ujjain",
+      "name": "Ujjain",
+      "whyGo": "Temple town and Shipra pilgrimage — Simhastha listed by IIT Indore.",
+      "paceNote": "Cover shoulders. Mahakaleshwar when steady. Not every shrine the same morning."
+    },
+    {
+      "stopName": "Mandu",
+      "name": "Mandu",
+      "whyGo": "Vindhya plateau palaces — Baz Bahadur and Roopmati on the IIT Indore list.",
+      "paceNote": "Jahaz Mahal and one more. Rest. Not every ruin."
+    },
+    {
+      "stopName": "Indore",
+      "name": "Omkareshwar",
+      "whyGo": "Om-shaped Narmada island and Jyotirlinga — ~80 km from Indore on the list.",
+      "paceNote": "Own outing. Stairs and heat. Not with Maheshwar if tired."
+    },
+    {
+      "stopName": "Mandu",
+      "name": "Maheshwar",
+      "whyGo": "Narmada ghats and Holkar town on the IIT Indore list.",
+      "paceNote": "Quiet extra from Mandu. Sit on the ghat. Not stacked with every palace."
+    },
+    {
+      "stopName": "Indore",
+      "name": "Hanuwantiya",
+      "whyGo": "Indira Sagar island / Jal Mahotsav adventure halt — Khandwa list.",
+      "paceNote": "Far extra. Water sports optional. Not a Mandu afternoon."
+    }
+  ],
+  "arunachal-pradesh": [
+    {
+      "stopName": "Itanagar",
+      "name": "Ita Fort",
+      "whyGo": "Brick fort in the capital complex — Arunachal Tourism Itanagar page.",
+      "paceNote": "Short grounds walk. Sit. Not stacked with a museum marathon."
+    },
+    {
+      "stopName": "Itanagar",
+      "name": "Jawaharlal Nehru Museum",
+      "whyGo": "Capital museum listed with Itanagar on destination round-ups.",
+      "paceNote": "Indoor rooms. Quiet extra after the fort day."
+    },
+    {
+      "stopName": "Itanagar",
+      "name": "Ziro Valley",
+      "whyGo": "Apatani plateau on Arunachal Tourism’s Ziro page and Peak Adventure list.",
+      "paceNote": "Own nights on the Itanagar–Ziro–Aalo circuit. Not a Tawang add-on."
+    },
+    {
+      "stopName": "Dirang",
+      "name": "Dirang valley",
+      "whyGo": "Valley halt on the west Kameng–Tawang road — official Dirang destination.",
+      "paceNote": "Lodge rest. Short walks. No Sela Pass on arrival."
+    },
+    {
+      "stopName": "Dirang",
+      "name": "Bomdila",
+      "whyGo": "Mid-altitude town on the official Tezpur–Bomdila–Tawang circuit.",
+      "paceNote": "Buffer overnight or lunch halt. One monastery if energy is high."
+    },
+    {
+      "stopName": "Dirang",
+      "name": "Mechuka",
+      "whyGo": "Remote pine valley on Peak Adventure and the Aalo–Mechuka circuit.",
+      "paceNote": "Far west-Siang extra. Own nights. Not this three-hotel week."
+    }
+  ],
+  "kerala": [
+    {
+      "stopName": "Kochi",
+      "name": "Fort Kochi",
+      "whyGo": "Harbour quarter: fishing nets, synagogue, churches.",
+      "paceNote": "Walk two streets, then a car for the rest."
+    },
+    {
+      "stopName": "Munnar",
+      "name": "Tea estates",
+      "whyGo": "Western Ghats tea hills.",
+      "paceNote": "Lookout + hotel garden. No jeep circuit the day you arrive."
+    },
+    {
+      "stopName": "Thekkady",
+      "name": "Periyar Lake",
+      "whyGo": "Boat on the tiger reserve lake.",
+      "paceNote": "Scheduled boat only; skip treks."
+    },
+    {
+      "stopName": "Alleppey",
+      "name": "Backwaters",
+      "whyGo": "Alappuzha canals and lagoon.",
+      "paceNote": "Overnight boat or still lake hotel — not both packed with a temple run."
+    }
+  ],
+  "andaman-and-nicobar-islands": [
+    {
+      "stopName": "Port Blair",
+      "name": "Cellular Jail",
+      "whyGo": "Heritage lead on official Andaman Tourism.",
+      "paceNote": "Morning visit; harbour evening if energy remains."
+    },
+    {
+      "stopName": "Swaraj Dweep",
+      "name": "Radhanagar Beach",
+      "whyGo": "West-facing beach — popular Andaman Tourism search.",
+      "paceNote": "Car to the beach; shade and water. Sunset hour."
+    },
+    {
+      "stopName": "Shaheed Dweep",
+      "name": "Island lagoons",
+      "whyGo": "Quieter Neil / Shaheed Dweep halt on official island list.",
+      "paceNote": "One beach, not three."
+    }
+  ],
+  "tamil-nadu": [
+    {
+      "stopName": "Chennai",
+      "name": "Marina Beach",
+      "whyGo": "Coromandel shore on Tamil Nadu Tourism’s Chennai notes.",
+      "paceNote": "Promenade hour. Sit. Not with Mahabalipuram the same day."
+    },
+    {
+      "stopName": "Mahabalipuram",
+      "name": "Shore Temple",
+      "whyGo": "UNESCO Pallava shore temple — Tamil Nadu Tourism Mahabalipuram.",
+      "paceNote": "Cool morning. Hat and water. Rathas another outing."
+    },
+    {
+      "stopName": "Madurai",
+      "name": "Meenakshi Amman Temple",
+      "whyGo": "Living Dravidian temple city — Tamil Nadu Tourism Madurai.",
+      "paceNote": "Early entry; sit often. Cover shoulders."
+    },
+    {
+      "stopName": "Madurai",
+      "name": "Brihadeeswarar (Thanjavur)",
+      "whyGo": "Chola Big Temple — Tamil Nadu Tourism Thanjavur; en-route extra.",
+      "paceNote": "Own cool morning. Not stacked with Meenakshi heat."
+    }
+  ],
+  "puducherry": [
+    {
+      "stopName": "Puducherry",
+      "name": "Seaside Promenade",
+      "whyGo": "Rock Beach / Goubert Avenue on Pondicherry Tourism places list.",
+      "paceNote": "Dawn or dusk walk. Sit."
+    },
+    {
+      "stopName": "Puducherry",
+      "name": "Sacred Heart Basilica",
+      "whyGo": "Gothic basilica on the places-to-visit list.",
+      "paceNote": "Cool indoor hour. Cover shoulders."
+    },
+    {
+      "stopName": "Auroville",
+      "name": "Auroville / Matrimandir",
+      "whyGo": "Universal township and Matrimandir on Pondicherry Tourism list.",
+      "paceNote": "Viewing rules. Quiet. Not with Paradise Beach same day."
+    },
+    {
+      "stopName": "Chunnambar",
+      "name": "Paradise Beach",
+      "whyGo": "Ferry beach via Chunnambar mangroves — places list lead.",
+      "paceNote": "Ferry when offered. Sit. Bird notes."
+    }
+  ],
+  "lakshadweep": [
+    {
+      "stopName": "Agatti",
+      "name": "Agatti lagoon",
+      "whyGo": "Air gateway island on Wikipedia Lakshadweep.",
+      "paceNote": "Permit island. Lagoon hour. Rest after flight."
+    },
+    {
+      "stopName": "Bangaram",
+      "name": "Bangaram atoll",
+      "whyGo": "Resort atoll lagoon — Wikipedia island notes.",
+      "paceNote": "Beach sit. No scuba on rough boat day."
+    },
+    {
+      "stopName": "Kavaratti",
+      "name": "Kavaratti",
+      "whyGo": "Capital island on Wikipedia Lakshadweep.",
+      "paceNote": "Lagoon and town when open. Quiet."
+    }
+  ],
+  "ladakh": [
+    {
+      "stopName": "Leh",
+      "name": "Leh Palace",
+      "whyGo": "Holidify Ladakh sightseeing lead palace.",
+      "paceNote": "Acclimatise before stairs. Rooftop views."
+    },
+    {
+      "stopName": "Leh",
+      "name": "Thiksey Monastery",
+      "whyGo": "Twelve-storey gompa on Holidify list — Leh-side morning.",
+      "paceNote": "Cool morning after acclimatisation. Sit often."
+    },
+    {
+      "stopName": "Nubra",
+      "name": "Nubra Valley / dunes",
+      "whyGo": "Holidify Nubra — via Khardung La when cleared.",
+      "paceNote": "Short dunes. Warm layers. Not on arrival from plains."
+    },
+    {
+      "stopName": "Pangong",
+      "name": "Pangong Lake",
+      "whyGo": "Holidify top attraction — colour-changing high lake.",
+      "paceNote": "Shore sit. Permit rules. No long trek."
+    }
+  ],
+  "uttar-pradesh": [
+    {
+      "stopName": "Agra",
+      "name": "Taj Mahal",
+      "whyGo": "Mughal mausoleum on the Yamuna — Peak Adventure’s lead Agra stop.",
+      "paceNote": "Booked morning slot. Rest after. Not same-day Varanasi."
+    },
+    {
+      "stopName": "Agra",
+      "name": "Agra Fort",
+      "whyGo": "Red-sandstone palace-fort listed with the Taj on the same destination page.",
+      "paceNote": "Separate outing from the Taj. Sit in the courtyards."
+    },
+    {
+      "stopName": "Agra",
+      "name": "Fatehpur Sikri",
+      "whyGo": "Akbar’s capital — Buland Darwaza and Jama Masjid, UNESCO.",
+      "paceNote": "Own cooler morning. Not stacked with the Taj."
+    },
+    {
+      "stopName": "Agra",
+      "name": "Mathura",
+      "whyGo": "Krishna Janmasthan town on Peak Adventure’s twin-town listing.",
+      "paceNote": "Plains extra from Agra. One precinct. Not with the Taj the same day."
+    },
+    {
+      "stopName": "Agra",
+      "name": "Vrindavan",
+      "whyGo": "Bankey Bihari and Prem Mandir — the Vrindavan half of the listing.",
+      "paceNote": "Pair with Mathura only if the day stayed short. Skip Holi crush unless planned."
+    },
+    {
+      "stopName": "Agra",
+      "name": "Jhansi Fort",
+      "whyGo": "Rani Lakshmibai’s Bundelkhand fort on the destination list.",
+      "paceNote": "Own overnight from Agra or a later trip. Not a same-day marble add-on."
+    }
+  ],
+  "goa": [
+    {
+      "stopName": "Panaji",
+      "name": "Fontainhas / Immaculate Conception",
+      "whyGo": "Panaji old town on Incredible India’s Goa capital notes.",
+      "paceNote": "Short lanes. Sit. Not with Old Goa the same afternoon if tired."
+    },
+    {
+      "stopName": "Panaji",
+      "name": "Basilica of Bom Jesus",
+      "whyGo": "UNESCO Old Goa — Incredible India heritage lead.",
+      "paceNote": "Cool morning from Panaji. Cover shoulders. One church precinct."
+    },
+    {
+      "stopName": "Calangute",
+      "name": "Calangute / Baga Beach",
+      "whyGo": "North-shore beaches on Incredible India’s Goa list.",
+      "paceNote": "Beach hour. Sit. Skip flea-market marathon."
+    },
+    {
+      "stopName": "Calangute",
+      "name": "Fort Aguada",
+      "whyGo": "Portuguese fort and lighthouse on Incredible India attractions.",
+      "paceNote": "Own cool morning. Limited climbing — sit often."
+    },
+    {
+      "stopName": "Palolem",
+      "name": "Palolem Beach",
+      "whyGo": "South crescent beach on Incredible India’s quieter shore list.",
+      "paceNote": "Sit. Swim if calm. Quiet evenings."
+    }
+  ],
+  "andhra-pradesh": [
+    {
+      "stopName": "Visakhapatnam",
+      "name": "RK Beach",
+      "whyGo": "Vizag Bay beach on Wikipedia’s Andhra tourism page.",
+      "paceNote": "Promenade hour. Sit. Not with Araku the same day."
+    },
+    {
+      "stopName": "Visakhapatnam",
+      "name": "Araku Valley / Borra Caves",
+      "whyGo": "Eastern Ghats hill station and caves on Wikipedia’s nature list.",
+      "paceNote": "Own outing from Vizag. Rest after. Not both plus a beach dump."
+    },
+    {
+      "stopName": "Visakhapatnam",
+      "name": "Borra Caves",
+      "whyGo": "Stalactite caves near Araku on Wikipedia’s caves section.",
+      "paceNote": "Pair with Araku. Limited walking; sit often."
+    },
+    {
+      "stopName": "Vijayawada",
+      "name": "Kanaka Durga / Amaravati",
+      "whyGo": "Krishna-side temple and Buddhist stupa on Wikipedia’s AP list.",
+      "paceNote": "One precinct per outing. Amaravati another morning."
+    },
+    {
+      "stopName": "Tirupati",
+      "name": "Tirumala Venkateswara",
+      "whyGo": "Lead pilgrimage on Wikipedia’s Andhra tourism page.",
+      "paceNote": "Plan queue and hill logistics. Rest after. No extra temple that day."
+    }
+  ],
+  "punjab": [
+    {
+      "stopName": "Amritsar",
+      "name": "Golden Temple",
+      "whyGo": "Harmandir Sahib — the living centre of Amritsar.",
+      "paceNote": "Early morning; sit in the parikrama. Head covering."
+    },
+    {
+      "stopName": "Amritsar",
+      "name": "Jallianwala Bagh",
+      "whyGo": "Memorial garden of 13 April 1919, next to the Golden Temple precinct.",
+      "paceNote": "Quiet walk after the gurdwara. Not a selfie hour."
+    },
+    {
+      "stopName": "Amritsar",
+      "name": "Gobindgarh Fort",
+      "whyGo": "Maharaja Ranjit Singh–era fort in the city.",
+      "paceNote": "Indoor galleries if the ramparts are too much sun."
+    },
+    {
+      "stopName": "Amritsar",
+      "name": "Wagah Border",
+      "whyGo": "Attari–Wagah retreat ceremony.",
+      "paceNote": "One evening only. Sit. No second site after the drive back."
+    },
+    {
+      "stopName": "Amritsar",
+      "name": "Mandir Mata Lal Devi",
+      "whyGo": "Cave-style temple listed among Amritsar visits.",
+      "paceNote": "Short stop. Not stacked with Wagah."
+    },
+    {
+      "stopName": "Bathinda",
+      "name": "Qila Mubarak (Bathinda Fort)",
+      "whyGo": "One of the oldest surviving forts in India; Sultanate-era ties including Razia Sultan.",
+      "paceNote": "Cool morning on the brick ramparts. Sit often. Skip a second monument the same day."
+    }
+  ],
+  "delhi": [
+    {
+      "stopName": "Old Delhi",
+      "name": "Red Fort",
+      "whyGo": "Shah Jahan’s palace-fort on the Yamuna — Delhi Tourism popular destination.",
+      "paceNote": "Cool morning. AC car. Skip the bazaar stack the same day."
+    },
+    {
+      "stopName": "Old Delhi",
+      "name": "Bangla Sahib",
+      "whyGo": "Living gurdwara listed among popular destinations.",
+      "paceNote": "Head covering. Langar if you wish. Not after a long fort walk if tired."
+    },
+    {
+      "stopName": "New Delhi",
+      "name": "Humayun’s Tomb",
+      "whyGo": "Mughal garden-tomb — a Delhi Tourism highlight.",
+      "paceNote": "Garden sitting. One tomb. Not plus Qutub the same day."
+    },
+    {
+      "stopName": "New Delhi",
+      "name": "Lodhi Garden",
+      "whyGo": "Shade, tombs, and a level walk in central Delhi.",
+      "paceNote": "The rest hour. Sit. No second monument if heat is high."
+    },
+    {
+      "stopName": "New Delhi",
+      "name": "Lotus Temple",
+      "whyGo": "Baháʼí House of Worship — popular modern landmark.",
+      "paceNote": "Short visit. Quiet. Pick Lotus or Akshardham, not both."
+    },
+    {
+      "stopName": "New Delhi",
+      "name": "Akshardham",
+      "whyGo": "Swaminarayan complex listed by Delhi Tourism.",
+      "paceNote": "Long site. Own half-day. Not stacked with Humayun."
+    }
+  ],
+  "west-bengal": [
+    {
+      "stopName": "Kolkata",
+      "name": "Victoria Memorial",
+      "whyGo": "Marble hall and gardens — Wikipedia’s Kolkata icon and a listed ‘wonder’.",
+      "paceNote": "Gardens first. One hall. Not stacked with Dakshineswar."
+    },
+    {
+      "stopName": "Kolkata",
+      "name": "Howrah Bridge",
+      "whyGo": "Rabindra Setu — Hooghly icon on Wikipedia’s architecture list.",
+      "paceNote": "Viewpoint from the bank. Not a walk across in heat if anyone is tired."
+    },
+    {
+      "stopName": "Kolkata",
+      "name": "Great Banyan / Botanic Garden",
+      "whyGo": "Howrah garden — Wikipedia names the Great Banyan among the state’s wonders.",
+      "paceNote": "Shibpur extra. Shade. Sit. Own outing."
+    },
+    {
+      "stopName": "Kolkata",
+      "name": "Dakshineswar Kali Temple",
+      "whyGo": "Bhavatarini temple on Wikipedia’s pilgrim list.",
+      "paceNote": "Cover shoulders. River ghat. Not with Kalighat the same morning."
+    },
+    {
+      "stopName": "Kolkata",
+      "name": "Belur Math",
+      "whyGo": "Ramakrishna Math headquarters listed with Dakshineswar.",
+      "paceNote": "Across the Hooghly. Quiet. Not stacked with Victoria."
+    },
+    {
+      "stopName": "Kolkata",
+      "name": "St. Paul’s Cathedral",
+      "whyGo": "Gothic cathedral on Wikipedia’s Christianity list.",
+      "paceNote": "Still indoor hour. Sit."
+    }
+  ],
+  "karnataka": [
+    {
+      "stopName": "Bengaluru",
+      "name": "Vidhana Soudha / Cubbon",
+      "whyGo": "State legislature landmark on Wikipedia’s modern-city tourism notes.",
+      "paceNote": "Photo stop and shade walk. Not a full city dump."
+    },
+    {
+      "stopName": "Mysuru",
+      "name": "Mysore Palace",
+      "whyGo": "Wodeyar palace — Wikipedia Karnataka Tourism lead image.",
+      "paceNote": "Grounds walk. Illumination evenings in season — not a late night."
+    },
+    {
+      "stopName": "Mysuru",
+      "name": "Belur / Halebidu",
+      "whyGo": "Hoysala soapstone temples on Wikipedia’s tourism list (proposed UNESCO).",
+      "paceNote": "Own cool morning from Mysuru. One temple. Sit often."
+    },
+    {
+      "stopName": "Hampi",
+      "name": "Virupaksha Temple / Vijayanagara",
+      "whyGo": "UNESCO Hampi ruins — Wikipedia tourism lead.",
+      "paceNote": "One zone per outing. Auto between. Sit often."
+    },
+    {
+      "stopName": "Hampi",
+      "name": "Gol Gumbaz (Bijapur)",
+      "whyGo": "Deccan Sultanate dome on Wikipedia’s tourism list — northern extra.",
+      "paceNote": "Own nights in Vijayapura. Not a Hampi afternoon."
+    },
+    {
+      "stopName": "Hampi",
+      "name": "Gokarna / Om Beach",
+      "whyGo": "Coastal beach on Wikipedia’s shoreline list.",
+      "paceNote": "Own nights. Not stacked with Hampi ruins."
+    }
+  ],
+  "maharashtra": [
+    {
+      "stopName": "Mumbai",
+      "name": "Gateway of India",
+      "whyGo": "Colonial waterfront icon on Wikipedia’s Mumbai list.",
+      "paceNote": "Photo stop and sit. Not stacked with Elephanta the same afternoon."
+    },
+    {
+      "stopName": "Mumbai",
+      "name": "Elephanta Caves",
+      "whyGo": "Island rock-cut caves — short ferry on Wikipedia Mumbai list.",
+      "paceNote": "Ferry extra. Limited walking. Sit often."
+    },
+    {
+      "stopName": "Pune",
+      "name": "Shaniwar Wada",
+      "whyGo": "Maratha-era palace fort on Wikipedia’s Pune heritage notes.",
+      "paceNote": "Grounds walk. Sit. Not a fort trek day."
+    },
+    {
+      "stopName": "Pune",
+      "name": "Mahabaleshwar / Lonavala",
+      "whyGo": "Colonial hill stations on Wikipedia’s Western Maharashtra list.",
+      "paceNote": "Own nights. Not a Pune afternoon stack."
+    },
+    {
+      "stopName": "Aurangabad",
+      "name": "Ellora Caves (Kailasa)",
+      "whyGo": "UNESCO rock-cut complex — Wikipedia / Aurangabad tourism capital.",
+      "paceNote": "One cool morning. Limited walking; hire help and sit."
+    },
+    {
+      "stopName": "Aurangabad",
+      "name": "Ajanta Caves",
+      "whyGo": "UNESCO Buddhist caves — separate day from Ellora.",
+      "paceNote": "Cool morning. Sit often. Not with Ellora the same day."
+    }
+  ],
+  "gujarat": [
+    {
+      "stopName": "Ahmedabad",
+      "name": "Sabarmati Ashram",
+      "whyGo": "Gandhi’s Ahmedabad ashram — Gift City Club’s cultural gateway.",
+      "paceNote": "Quiet morning. Sit. Not stacked with Adalaj."
+    },
+    {
+      "stopName": "Ahmedabad",
+      "name": "Adalaj Stepwell",
+      "whyGo": "Stone stepwell listed among Ahmedabad highlights.",
+      "paceNote": "Own outing. Stairs; sit often. Skip if knees are sore."
+    },
+    {
+      "stopName": "Ahmedabad",
+      "name": "Rani ki Vav, Patan",
+      "whyGo": "UNESCO stepwell — a plains extra from Ahmedabad.",
+      "paceNote": "Own morning. Not with Modhera if tired."
+    },
+    {
+      "stopName": "Ahmedabad",
+      "name": "Modhera Sun Temple",
+      "whyGo": "Solanki sun temple extra from the heritage city.",
+      "paceNote": "Cool morning. Shade after."
+    },
+    {
+      "stopName": "Ahmedabad",
+      "name": "Rann of Kutch",
+      "whyGo": "White salt desert — Gift City Club’s unique landscape. Winter Rann Utsav.",
+      "paceNote": "Own nights at Bhuj/Dhordo. Not an Ahmedabad afternoon. Season matters."
+    },
+    {
+      "stopName": "Ahmedabad",
+      "name": "Dholavira",
+      "whyGo": "UNESCO Indus city on Khadir island — on the same guide.",
+      "paceNote": "Pair with the Rann. Specialist archaeology morning. Own Kutch nights."
+    }
+  ],
+  "odisha": [
+    {
+      "stopName": "Bhubaneswar",
+      "name": "Lingaraja Temple",
+      "whyGo": "Ekamra Kshetra lead temple on Wikipedia’s Odisha tourism page.",
+      "paceNote": "Cover shoulders. One precinct. Not the whole temple list."
+    },
+    {
+      "stopName": "Bhubaneswar",
+      "name": "Udayagiri and Khandagiri Caves",
+      "whyGo": "Jain cave hills on Wikipedia’s monuments list.",
+      "paceNote": "Own outing. Short climbs — sit often."
+    },
+    {
+      "stopName": "Puri",
+      "name": "Jagannath Temple / beach",
+      "whyGo": "Puri temple town and shore on Wikipedia’s Odisha list.",
+      "paceNote": "Respect temple entry rules; beach is the easy hour."
+    },
+    {
+      "stopName": "Puri",
+      "name": "Konark Sun Temple",
+      "whyGo": "UNESCO chariot temple — Wikipedia Odisha monuments lead.",
+      "paceNote": "Cool morning from Puri. Shade after. Not with a long Chilika boat the same day."
+    },
+    {
+      "stopName": "Chilika",
+      "name": "Chilika Lake",
+      "whyGo": "Lagoon and islands on Wikipedia — Satapada boats, winter birds.",
+      "paceNote": "Boat from a jetty. Sit. Island hops are extras."
+    }
+  ],
+  "himachal-pradesh": [
+    {
+      "stopName": "Shimla",
+      "name": "Ridge & Mall",
+      "whyGo": "Colonial hill capital — Himachal Tourism popular destination.",
+      "paceNote": "Level Mall and Ridge only. Skip Jakhu and Kufri on arrival day."
+    },
+    {
+      "stopName": "Shimla",
+      "name": "Kalka–Shimla railway",
+      "whyGo": "UNESCO mountain rail into the hill capital.",
+      "paceNote": "Use it as the arrival, not a day trip from Manali."
+    },
+    {
+      "stopName": "Manali",
+      "name": "Manali / Kullu valley",
+      "whyGo": "Beas valley town listed as a popular destination.",
+      "paceNote": "Rest after the long drive. Town and river — not Rohtang the same day."
+    },
+    {
+      "stopName": "Manali",
+      "name": "Kullu (Sainj)",
+      "whyGo": "Valley temples and forested side valleys.",
+      "paceNote": "Stop on the Shimla–Manali transfer only if you need a lunch break — not a hike."
+    },
+    {
+      "stopName": "Chandigarh",
+      "name": "Dharamshala",
+      "whyGo": "Kangra hill town — popular, but another valley from Manali.",
+      "paceNote": "Separate trip or extra nights after flying/driving back toward Chandigarh. Not a Manali day trip."
+    },
+    {
+      "stopName": "Chandigarh",
+      "name": "Dalhousie",
+      "whyGo": "Colonial ridge town near Chamba.",
+      "paceNote": "Overnight from Pathankot / Kangra side. Not stacked with Shimla."
+    }
+  ],
+  "uttarakhand": [
+    {
+      "stopName": "Dehradun",
+      "name": "Dehradun",
+      "whyGo": "State capital and gateway listed by Uttarakhand Tourism.",
+      "paceNote": "Arrive and rest. No Mussoorie on day one."
+    },
+    {
+      "stopName": "Dehradun",
+      "name": "Mussoorie",
+      "whyGo": "Garhwal hill station above Dehradun — Mall and views.",
+      "paceNote": "Next morning only. Back to the valley. Not a Nainital same-day stack."
+    },
+    {
+      "stopName": "Dehradun",
+      "name": "Dhanaulti",
+      "whyGo": "Quiet Garhwal ridge listed by UTDB, beyond Mussoorie.",
+      "paceNote": "Separate hill morning. Not stacked with Mussoorie Mall."
+    },
+    {
+      "stopName": "Dehradun",
+      "name": "Chakrata",
+      "whyGo": "Deodar hill town west of Dehradun.",
+      "paceNote": "Overnight extra, not a Dehradun afternoon."
+    },
+    {
+      "stopName": "Dehradun",
+      "name": "Kanatal",
+      "whyGo": "Small Garhwal halt between Mussoorie and Chamba.",
+      "paceNote": "Viewpoint only if the Mussoorie day stayed short."
+    },
+    {
+      "stopName": "Rishikesh",
+      "name": "Rishikesh",
+      "whyGo": "Ganga town, yoga gateway, Garhwal foothills.",
+      "paceNote": "Ghat sit. Skip rafting on a comfort trip."
+    }
+  ],
+  "sikkim": [
+    {
+      "stopName": "Gangtok",
+      "name": "Gangtok",
+      "whyGo": "Sikkim’s capital on eSikkim Tourism’s #1 — Eastern Himalaya rest base.",
+      "paceNote": "Arrive and sit. No Tsomgo on day one. MG Marg optional evening."
+    },
+    {
+      "stopName": "Gangtok",
+      "name": "Rumtek Monastery",
+      "whyGo": "Buddhist monastery on the top-15 list (and Gangtok highlights).",
+      "paceNote": "Own morning. Cover shoulders. Not stacked with Tsomgo."
+    },
+    {
+      "stopName": "Gangtok",
+      "name": "Tsomgo Lake",
+      "whyGo": "Changu Lake ~3,753 m — sacred high lake, permit extra from Gangtok.",
+      "paceNote": "Early start after rest nights. Skip if anyone is breathless. No Nathula the same day."
+    },
+    {
+      "stopName": "Gangtok",
+      "name": "Nathula Pass",
+      "whyGo": "Old Silk Road pass ~4,310 m — Indians with permit; source says closed to foreign nationals.",
+      "paceNote": "Higher extra. Closed some weekdays per the list. Skip on a first comfort week if Tsomgo already tired the group."
+    },
+    {
+      "stopName": "Gangtok",
+      "name": "Do-Drul Chorten",
+      "whyGo": "Stupa on eSikkim Tourism’s top 15.",
+      "paceNote": "Short visit. Sit. Not with Rumtek if tired."
+    },
+    {
+      "stopName": "Gangtok",
+      "name": "Namgyal Institute of Tibetology",
+      "whyGo": "Indoor museum on the top-15 list.",
+      "paceNote": "Level rooms. Quiet extra."
+    }
+  ],
+  "assam": [
+    {
+      "stopName": "Guwahati",
+      "name": "Kamakhya Temple",
+      "whyGo": "Nilachal hill temple on Assam Tourism’s Temples and Explore lists.",
+      "paceNote": "Stairs. Sit often. Cover shoulders. Not stacked with Umananda."
+    },
+    {
+      "stopName": "Guwahati",
+      "name": "Umananda Island",
+      "whyGo": "River-island shrine on the Explore list.",
+      "paceNote": "Boat extra. Short visit. Not with Kamakhya if tired."
+    },
+    {
+      "stopName": "Guwahati",
+      "name": "Hajo",
+      "whyGo": "Multi-faith town west of Guwahati on Explore.",
+      "paceNote": "Own outing. Not a Kamakhya afternoon."
+    },
+    {
+      "stopName": "Guwahati",
+      "name": "Sualkuchi",
+      "whyGo": "Silk village on Rural Charm.",
+      "paceNote": "Plains extra. Sit-down looms if offered. Not stacked with Hajo."
+    },
+    {
+      "stopName": "Guwahati",
+      "name": "Deepor Beel",
+      "whyGo": "Wetland birding extra on Explore.",
+      "paceNote": "Cool morning. Not with Kamakhya."
+    },
+    {
+      "stopName": "Guwahati",
+      "name": "Assam State Museum",
+      "whyGo": "Indoor history halt on the History page.",
+      "paceNote": "Level rooms. Quiet extra."
+    }
+  ],
+  "telangana": [
+    {
+      "stopName": "Hyderabad",
+      "name": "Charminar",
+      "whyGo": "Global Hyderabad icon on TGTDC / Tourism in Telangana monument lists.",
+      "paceNote": "Old-city morning. Cover shoulders near mosques. Not with Golconda the same afternoon."
+    },
+    {
+      "stopName": "Hyderabad",
+      "name": "Golconda Fort",
+      "whyGo": "Qutb Shahi fort on TGTDC Hyderabad places list.",
+      "paceNote": "Own cool morning. Limited climbing — sit often."
+    },
+    {
+      "stopName": "Warangal",
+      "name": "Thousand Pillar Temple",
+      "whyGo": "Kakatiya temple on TGTDC Warangal heritage packages.",
+      "paceNote": "Cover shoulders. One precinct. Sit."
+    },
+    {
+      "stopName": "Warangal",
+      "name": "Ramappa Temple",
+      "whyGo": "UNESCO Kakatiya temple — TGTDC Warangal–Ramappa packages.",
+      "paceNote": "Cool morning from Warangal. Shade after. Not with fort sound-and-light if tired."
+    },
+    {
+      "stopName": "Nagarjuna Sagar",
+      "name": "Nagarjuna Sagar Dam",
+      "whyGo": "Krishna reservoir on TGTDC Nagarjuna Sagar tours.",
+      "paceNote": "Dam view. Boat and museum when offered. Sit."
+    }
+  ],
+  "bihar": [
+    {
+      "stopName": "Patna",
+      "name": "Patna",
+      "whyGo": "Ganga capital on Holidify’s list — Patna Sahib and ghats.",
+      "paceNote": "One outing. Heat management. Vaishali is another morning."
+    },
+    {
+      "stopName": "Patna",
+      "name": "Vaishali",
+      "whyGo": "Ashokan pillar and early republic landscape.",
+      "paceNote": "Plains extra from Patna. Not stacked with Patna Sahib."
+    },
+    {
+      "stopName": "Patna",
+      "name": "Sher Shah’s Tomb, Sasaram",
+      "whyGo": "Indo-Islamic mausoleum on the Holidify list.",
+      "paceNote": "West extra from Patna. Own halt if you add it."
+    },
+    {
+      "stopName": "Rajgir",
+      "name": "Rajgir",
+      "whyGo": "Magadha hills, Venuvana, Japanese Peace Pagoda.",
+      "paceNote": "Ropeway or car. Skip the peak climb if tired."
+    },
+    {
+      "stopName": "Rajgir",
+      "name": "Nalanda",
+      "whyGo": "Ruined mahavihara — Holidify’s academic Buddhist seat.",
+      "paceNote": "Cool morning from Rajgir. Shade. Not a third hotel."
+    },
+    {
+      "stopName": "Rajgir",
+      "name": "Pawapuri / Jal Mandir",
+      "whyGo": "Jain marble temple in the tank — listed with Nalanda.",
+      "paceNote": "Short extra after Nalanda only if the day stayed easy."
+    }
+  ],
+  "jharkhand": [
+    {
+      "stopName": "Ranchi",
+      "name": "Jagannath Temple, Ranchi",
+      "whyGo": "17th-century hill temple on Wikipedia’s pilgrim list.",
+      "paceNote": "Stairs. Sit often. Not stacked with a waterfall the same morning."
+    },
+    {
+      "stopName": "Ranchi",
+      "name": "Hundru Falls",
+      "whyGo": "Ranchi-district fall on the Wikipedia waterfall list.",
+      "paceNote": "One fall morning. Spray and steps. Skip Dassam the same day."
+    },
+    {
+      "stopName": "Ranchi",
+      "name": "Dassam Falls",
+      "whyGo": "Another Ranchi-district fall on the same list.",
+      "paceNote": "Pick Hundru or Dassam. Not both plus Jonha."
+    },
+    {
+      "stopName": "Ranchi",
+      "name": "Patratu Valley",
+      "whyGo": "Dam and valley road listed among dams / night views.",
+      "paceNote": "Evening extra if the waterfall day stayed short."
+    },
+    {
+      "stopName": "Ranchi",
+      "name": "Baidyanath Dham",
+      "whyGo": "Jyotirlinga at Deoghar — Wikipedia pilgrim lead.",
+      "paceNote": "Own nights. Not a Ranchi day trip."
+    },
+    {
+      "stopName": "Ranchi",
+      "name": "Parasnath / Shikharji",
+      "whyGo": "Highest peak in the state; Jain pilgrimage.",
+      "paceNote": "Serious climb. Later trip or palanquin. Not this comfort week."
+    }
+  ],
+  "chhattisgarh": [
+    {
+      "stopName": "Raipur",
+      "name": "Purkhauti Muktangan",
+      "whyGo": "Open-air art museum and park in Naya Raipur — Holidify list; state tourism theme.",
+      "paceNote": "Level walk. Sit. Not stacked with Ghatarani."
+    },
+    {
+      "stopName": "Raipur",
+      "name": "Ghatarani Waterfalls",
+      "whyGo": "Raipur-district picnic fall on Holidify’s top-22.",
+      "paceNote": "Own morning. Spray and steps. Skip Barnawapara the same day."
+    },
+    {
+      "stopName": "Raipur",
+      "name": "Barnawapara Wildlife Sanctuary",
+      "whyGo": "Sanctuary on Holidify #1 and Wikipedia’s wildlife list (~Mahasamund side).",
+      "paceNote": "Cool morning jeep if offered. Own outing from Raipur."
+    },
+    {
+      "stopName": "Raipur",
+      "name": "Bhoramdeo Temple",
+      "whyGo": "‘Khajuraho of Chhattisgarh’ near Kawardha — Holidify and Wikipedia temple lists.",
+      "paceNote": "Northwest extra. Own night. Not a Raipur afternoon."
+    },
+    {
+      "stopName": "Raipur",
+      "name": "Mainpat",
+      "whyGo": "Underrated hill station on Holidify — Surguja side.",
+      "paceNote": "Far north extra. Own nights. Not this three-hotel week."
+    },
+    {
+      "stopName": "Raipur",
+      "name": "Achanakmar Wildlife Sanctuary",
+      "whyGo": "Tiger reserve ~60 km from Bilaspur on Holidify / Wikipedia.",
+      "paceNote": "Bilaspur-side extra. Own lodge. Not stacked with Sirpur."
+    }
+  ],
+  "manipur": [
+    {
+      "stopName": "Imphal",
+      "name": "Kangla Fort",
+      "whyGo": "Ancient citadel of Manipur’s kings — Incredible India Imphal lead.",
+      "paceNote": "Grounds walk. Sit. Not stacked with Govindajee the same afternoon."
+    },
+    {
+      "stopName": "Imphal",
+      "name": "Shree Shree Govindajee Temple",
+      "whyGo": "Serene capital temple on Incredible India’s Manipur / Imphal list.",
+      "paceNote": "Cover shoulders. Quiet morning. One temple outing."
+    },
+    {
+      "stopName": "Imphal",
+      "name": "Imphal War Cemetery",
+      "whyGo": "WWII cemetery on the official Imphal attractions list.",
+      "paceNote": "Quiet memorial. Sit. Separate from Kangla."
+    },
+    {
+      "stopName": "Imphal",
+      "name": "Ima Keithel (Mother’s Market)",
+      "whyGo": "Women-run market highlighted on Incredible India’s Manipur page.",
+      "paceNote": "Short sit-down visit. Not a shopping marathon after a fort morning."
+    },
+    {
+      "stopName": "Imphal",
+      "name": "Manipur State Museum",
+      "whyGo": "Indoor history halt on the Imphal attractions list.",
+      "paceNote": "Level rooms. Rain-day extra."
+    },
+    {
+      "stopName": "Loktak",
+      "name": "Loktak Lake",
+      "whyGo": "Largest freshwater lake in the Northeast — floating phumdis on Incredible India.",
+      "paceNote": "Boat from a jetty when offered. Sit. Cool hours."
+    }
+  ],
+  "meghalaya": [
+    {
+      "stopName": "Shillong",
+      "name": "Shillong Peak / Ward’s Lake",
+      "whyGo": "Hill-capital vistas on Meghalaya Tourism’s Shillong and 1-day scenic cards.",
+      "paceNote": "Lake or peak — not both plus Elephant Falls the same afternoon."
+    },
+    {
+      "stopName": "Shillong",
+      "name": "Don Bosco Museum",
+      "whyGo": "Indoor museum on the official museum circuit.",
+      "paceNote": "Quiet rooms. Rain-day halt. Not stacked with a waterfall."
+    },
+    {
+      "stopName": "Shillong",
+      "name": "Elephant Falls",
+      "whyGo": "City-outskirts fall on official Shillong nature loops.",
+      "paceNote": "Short extra if the city day stayed easy. Spray and steps."
+    },
+    {
+      "stopName": "Shillong",
+      "name": "Mawphlang Sacred Grove",
+      "whyGo": "Guided grove on official 5-day and Shillong extras.",
+      "paceNote": "Own morning from Shillong. Short loop. Not a trek."
+    },
+    {
+      "stopName": "Sohra",
+      "name": "Nohkalikai Falls",
+      "whyGo": "Sohra (Cherrapunji) viewpoint on Shillong-and-Sohra itineraries.",
+      "paceNote": "One fall a morning. Viewpoint, not a scramble."
+    },
+    {
+      "stopName": "Sohra",
+      "name": "Nohsngithiang (Seven Sisters Falls)",
+      "whyGo": "Named on Meghalaya Tourism’s waterfall list.",
+      "paceNote": "Pick Nohkalikai or Seven Sisters. Not both plus a cave."
+    }
+  ],
+  "nagaland": [
+    {
+      "stopName": "Dimapur",
+      "name": "Dimapur",
+      "whyGo": "Usual air/rail gate before the Kohima hill road — Tourism Nagaland circuit start.",
+      "paceNote": "Plains rest night. No Kohima climb on arrival if tired."
+    },
+    {
+      "stopName": "Kohima",
+      "name": "Naga Heritage Village (Kisama)",
+      "whyGo": "Tribal house cluster / morungs — official Destinations post.",
+      "paceNote": "Walk and sit. Not stacked with the war cemetery the same morning."
+    },
+    {
+      "stopName": "Kohima",
+      "name": "Kohima War Cemetery",
+      "whyGo": "WWII memorial in the hill capital — quiet level outing.",
+      "paceNote": "Sit often. Separate morning from Kisama."
+    },
+    {
+      "stopName": "Kohima",
+      "name": "Dzulekie",
+      "whyGo": "Nature village near Kohima on Tourism Nagaland Destinations.",
+      "paceNote": "Extra from Kohima. Short visit. Not with Dzükou."
+    },
+    {
+      "stopName": "Kohima",
+      "name": "Tuophema Tourist Village",
+      "whyGo": "Model rural-homestay village on the Destinations list.",
+      "paceNote": "Own overnight extra. Not a Kohima afternoon stack."
+    },
+    {
+      "stopName": "Kohima",
+      "name": "Dzükou Valley",
+      "whyGo": "Cloud meadow trek on Tourism Nagaland’s Destinations blog.",
+      "paceNote": "Serious trek. Later trip. Not this comfort week."
+    }
+  ],
+  "mizoram": [
+    {
+      "stopName": "Aizawl",
+      "name": "Aizawl viewpoints",
+      "whyGo": "Ridge capital on Wikipedia’s Tourism in Mizoram town list.",
+      "paceNote": "One viewpoint morning. Sit. Not stacked with Hmuifang."
+    },
+    {
+      "stopName": "Aizawl",
+      "name": "Hmuifang Tlang",
+      "whyGo": "Hill ~50 km from Aizawl; virgin forest reserved since Mizo chiefs’ time.",
+      "paceNote": "Own morning. Short walks. On the way toward Lunglei — not a scramble."
+    },
+    {
+      "stopName": "Aizawl",
+      "name": "Dampa Tiger Reserve",
+      "whyGo": "Largest sanctuary / tiger reserve ~127 km west of Aizawl on the Wikipedia wildlife list.",
+      "paceNote": "Own nights. Not an Aizawl day trip."
+    },
+    {
+      "stopName": "Reiek",
+      "name": "Reiek Tlang",
+      "whyGo": "Hill station ~12 km from Aizawl; valley views, Bangladesh plains on a clear day.",
+      "paceNote": "Lodge rest. Short paths to viewpoints. Sit often."
+    },
+    {
+      "stopName": "Reiek",
+      "name": "Reiek Heritage Village",
+      "whyGo": "Cultural village at the Reiek tourist area on Wikimedia / local tourism photos.",
+      "paceNote": "Short village walk. Not a summit push if tired."
+    },
+    {
+      "stopName": "Reiek",
+      "name": "Vantawng Falls",
+      "whyGo": "Falls ~5 km south of Thenzawl on Wikipedia’s Thenzawl list — mid-state extra.",
+      "paceNote": "Own outing toward Thenzawl. Viewpoint, not a gorge scramble."
+    }
+  ],
+  "tripura": [
+    {
+      "stopName": "Agartala",
+      "name": "Ujjayanta Palace",
+      "whyGo": "Gleaming white Manikya palace in the capital — Tripura Tourism destination lead.",
+      "paceNote": "Indoor rooms and grounds. Light-and-sound only if energy is high."
+    },
+    {
+      "stopName": "Agartala",
+      "name": "Jagannath Bari / capital temples",
+      "whyGo": "Jagannath, Laxmi Narayan, and related capital shrines on Explore Tripura Day-1.",
+      "paceNote": "One temple morning. Not stacked with the palace."
+    },
+    {
+      "stopName": "Agartala",
+      "name": "Sepahijala Wildlife Sanctuary",
+      "whyGo": "Near-Agartala sanctuary on the destination list.",
+      "paceNote": "Cool morning. Follow posted zoo/park rules. Not with Ujjayanta if tired."
+    },
+    {
+      "stopName": "Agartala",
+      "name": "Chaturdasha Devata (14 Gods)",
+      "whyGo": "West of Agartala on Pilgrim and Eco packages.",
+      "paceNote": "Own outing. Not stacked with Kamalasagar the same morning."
+    },
+    {
+      "stopName": "Agartala",
+      "name": "Jampui Hills",
+      "whyGo": "Highest hill range; Eden Tourist Lodge nights on Eco / Explore packages.",
+      "paceNote": "Far hill extra. Own nights. Not this three-hotel week."
+    },
+    {
+      "stopName": "Udaipur",
+      "name": "Tripura Sundari Temple (Matabari)",
+      "whyGo": "Ancient Matabari temple — official destination and Pilgrim Tour lead.",
+      "paceNote": "Cover shoulders. Sit. Not both Neermahal and Gunabati the same day."
+    }
+  ],
+  "haryana": [
+    {
+      "stopName": "Gurugram",
+      "name": "Sultanpur National Park",
+      "whyGo": "Bird park on the Gurugram plains — the gentle wildlife morning.",
+      "paceNote": "Cool hours, short trails. Not stacked with Damdama the same day."
+    },
+    {
+      "stopName": "Gurugram",
+      "name": "Damdama Lake",
+      "whyGo": "Aravalli reservoir near Gurugram, listed for recreation.",
+      "paceNote": "Viewpoint or still lunch. Skip kayak/balloon stacks."
+    },
+    {
+      "stopName": "Gurugram",
+      "name": "Surajkund",
+      "whyGo": "Lake, sun-temple remains, and the February crafts mela.",
+      "paceNote": "One outing. Mela season is crowded — sit often."
+    },
+    {
+      "stopName": "Gurugram",
+      "name": "Raja Nahar Singh Palace",
+      "whyGo": "18th-century Rajput palace-fort at Ballabhgarh (Faridabad).",
+      "paceNote": "Indoor rooms if the sun is hard. Not after a long highway day."
+    },
+    {
+      "stopName": "Kurukshetra",
+      "name": "Brahma Sarovar",
+      "whyGo": "The great tank of Kurukshetra — level pilgrim walk.",
+      "paceNote": "Sit on the ghats. Skip a second temple if tired."
+    },
+    {
+      "stopName": "Kurukshetra",
+      "name": "Jyotisar",
+      "whyGo": "Traditional site of the Bhagavad Gita sermon.",
+      "paceNote": "Short visit after the sarovar — not both plus the panorama in one loop."
+    }
+  ],
+  "chandigarh": [
+    {
+      "stopName": "Capitol",
+      "name": "Capitol Complex",
+      "whyGo": "UNESCO modern architecture on Chandigarh Tourist Places list.",
+      "paceNote": "Visiting hours. Sit. Not with Rock Garden same afternoon."
+    },
+    {
+      "stopName": "Sukhna",
+      "name": "Sukhna Lake",
+      "whyGo": "Shivalik foothill reservoir on the official list.",
+      "paceNote": "Promenade sit. Shade. Rose Garden extra."
+    },
+    {
+      "stopName": "Sukhna",
+      "name": "Rose Garden",
+      "whyGo": "Zakir Hussain Rose Garden — botanical shade on the list.",
+      "paceNote": "Own cool morning. Flat paths."
+    },
+    {
+      "stopName": "Rock Garden",
+      "name": "Rock Garden",
+      "whyGo": "Nek Chand’s sculpture garden on Chandigarh Tourist Places.",
+      "paceNote": "Flat paths, shade. Sit often."
+    }
+  ],
+  "jammu-and-kashmir": [
+    {
+      "stopName": "Srinagar",
+      "name": "Srinagar",
+      "whyGo": "Valley capital on the Jhelum — rest base for the circuit.",
+      "paceNote": "Arrive and unpack. No hill drive on day one."
+    },
+    {
+      "stopName": "Srinagar",
+      "name": "Dal Lake",
+      "whyGo": "Shikara and houseboats on the lake.",
+      "paceNote": "One hour on the water. Not a full-day garden stack."
+    },
+    {
+      "stopName": "Srinagar",
+      "name": "Mughal gardens",
+      "whyGo": "Nishat or Shalimar — pick one.",
+      "paceNote": "Shade and sitting. Skip a second garden if tired."
+    },
+    {
+      "stopName": "Gulmarg",
+      "name": "Gulmarg gondola",
+      "whyGo": "Meadow and snow bowl west of Srinagar.",
+      "paceNote": "Weather window. Not the same day you arrive from the plains."
+    },
+    {
+      "stopName": "Pahalgam",
+      "name": "Pahalgam",
+      "whyGo": "Lidder valley meadows.",
+      "paceNote": "Hotel rest; short riverside walk."
+    },
+    {
+      "stopName": "Sonamarg",
+      "name": "Sonamarg",
+      "whyGo": "Meadow on the way toward Zoji La.",
+      "paceNote": "Day trip only if roads are kind; otherwise overnight."
+    }
+  ],
+  "dadra-and-nagar-haveli-and-daman-and-diu": [
+    {
+      "stopName": "Daman",
+      "name": "Moti / Nani Daman Fort",
+      "whyGo": "Portuguese forts on Incredible India Daman notes.",
+      "paceNote": "One fort precinct. Beach another outing."
+    },
+    {
+      "stopName": "Diu",
+      "name": "Diu Fort",
+      "whyGo": "Island fort — Incredible India Diu lead.",
+      "paceNote": "Cool morning. Sea views. Sit."
+    },
+    {
+      "stopName": "Diu",
+      "name": "Nagoa Beach",
+      "whyGo": "Golden beach on Incredible India Diu list.",
+      "paceNote": "Beach hour. Sit. Not with fort heat if tired."
+    },
+    {
+      "stopName": "Silvassa",
+      "name": "Dudhni / Vanganga lakes",
+      "whyGo": "Inland lakes on Incredible India Silvassa notes.",
+      "paceNote": "Boat or gardens when offered. Museum short."
+    }
+  ]
+}

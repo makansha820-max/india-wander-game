@@ -1,0 +1,728 @@
+{
+  "kerala": [
+    {
+      "name": "Kochi",
+      "lat": 9.9312,
+      "lng": 76.2673,
+      "height": 0.15
+    },
+    {
+      "name": "Munnar",
+      "lat": 10.0889,
+      "lng": 77.0595,
+      "height": 1
+    },
+    {
+      "name": "Thekkady",
+      "lat": 9.5916,
+      "lng": 77.1615,
+      "height": 0.55
+    },
+    {
+      "name": "Alleppey",
+      "lat": 9.4981,
+      "lng": 76.3388,
+      "height": 0.08
+    }
+  ],
+  "rajasthan": [
+    {
+      "name": "Jaipur",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "height": 0.35
+    },
+    {
+      "name": "Jodhpur",
+      "lat": 26.2389,
+      "lng": 73.0243,
+      "height": 0.3
+    },
+    {
+      "name": "Udaipur",
+      "lat": 24.5854,
+      "lng": 73.7125,
+      "height": 0.4
+    }
+  ],
+  "madhya-pradesh": [
+    {
+      "name": "Indore",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "height": 0.25
+    },
+    {
+      "name": "Ujjain",
+      "lat": 23.1765,
+      "lng": 75.7885,
+      "height": 0.28
+    },
+    {
+      "name": "Mandu",
+      "lat": 22.347,
+      "lng": 75.397,
+      "height": 0.55
+    }
+  ],
+  "arunachal-pradesh": [
+    {
+      "name": "Itanagar",
+      "lat": 27.0844,
+      "lng": 93.6053,
+      "height": 0.4
+    },
+    {
+      "name": "Dirang",
+      "lat": 27.359,
+      "lng": 92.25,
+      "height": 0.7
+    },
+    {
+      "name": "Tawang",
+      "lat": 27.586,
+      "lng": 91.859,
+      "height": 1
+    }
+  ],
+  "andhra-pradesh": [
+    {
+      "name": "Visakhapatnam",
+      "lat": 17.6868,
+      "lng": 83.2185,
+      "height": 0.15
+    },
+    {
+      "name": "Vijayawada",
+      "lat": 16.5062,
+      "lng": 80.648,
+      "height": 0.2
+    },
+    {
+      "name": "Tirupati",
+      "lat": 13.6288,
+      "lng": 79.4192,
+      "height": 0.45
+    }
+  ],
+  "assam": [
+    {
+      "name": "Guwahati",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "height": 0.15
+    },
+    {
+      "name": "Kaziranga",
+      "lat": 26.5775,
+      "lng": 93.1711,
+      "height": 0.2
+    },
+    {
+      "name": "Majuli",
+      "lat": 26.95,
+      "lng": 94.17,
+      "height": 0.12
+    }
+  ],
+  "bihar": [
+    {
+      "name": "Patna",
+      "lat": 25.5941,
+      "lng": 85.1376,
+      "height": 0.15
+    },
+    {
+      "name": "Rajgir",
+      "lat": 25.03,
+      "lng": 85.42,
+      "height": 0.25
+    },
+    {
+      "name": "Bodh Gaya",
+      "lat": 24.6961,
+      "lng": 84.9911,
+      "height": 0.2
+    }
+  ],
+  "chhattisgarh": [
+    {
+      "name": "Raipur",
+      "lat": 21.2514,
+      "lng": 81.6296,
+      "height": 0.25
+    },
+    {
+      "name": "Sirpur",
+      "lat": 21.35,
+      "lng": 82.17,
+      "height": 0.25
+    },
+    {
+      "name": "Jagdalpur",
+      "lat": 19.07,
+      "lng": 82.03,
+      "height": 0.45
+    }
+  ],
+  "goa": [
+    {
+      "name": "Panaji",
+      "lat": 15.4909,
+      "lng": 73.8278,
+      "height": 0.1
+    },
+    {
+      "name": "Calangute",
+      "lat": 15.5439,
+      "lng": 73.7553,
+      "height": 0.08
+    },
+    {
+      "name": "Palolem",
+      "lat": 15.01,
+      "lng": 74.023,
+      "height": 0.08
+    }
+  ],
+  "gujarat": [
+    {
+      "name": "Ahmedabad",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "height": 0.2
+    },
+    {
+      "name": "Gir",
+      "lat": 21.124,
+      "lng": 70.793,
+      "height": 0.25
+    },
+    {
+      "name": "Dwarka",
+      "lat": 22.2442,
+      "lng": 68.9685,
+      "height": 0.08
+    }
+  ],
+  "haryana": [
+    {
+      "name": "Gurugram",
+      "lat": 28.4595,
+      "lng": 77.0266,
+      "height": 0.2
+    },
+    {
+      "name": "Kurukshetra",
+      "lat": 29.9695,
+      "lng": 76.8783,
+      "height": 0.2
+    },
+    {
+      "name": "Pinjore",
+      "lat": 30.797,
+      "lng": 76.917,
+      "height": 0.35
+    }
+  ],
+  "himachal-pradesh": [
+    {
+      "name": "Chandigarh",
+      "lat": 30.7333,
+      "lng": 76.7794,
+      "height": 0.3
+    },
+    {
+      "name": "Shimla",
+      "lat": 31.1048,
+      "lng": 77.1734,
+      "height": 0.8
+    },
+    {
+      "name": "Manali",
+      "lat": 32.2396,
+      "lng": 77.1887,
+      "height": 0.85
+    }
+  ],
+  "jharkhand": [
+    {
+      "name": "Ranchi",
+      "lat": 23.3441,
+      "lng": 85.3096,
+      "height": 0.45
+    },
+    {
+      "name": "Netarhat",
+      "lat": 23.479,
+      "lng": 84.27,
+      "height": 0.7
+    },
+    {
+      "name": "Betla",
+      "lat": 23.885,
+      "lng": 84.19,
+      "height": 0.4
+    }
+  ],
+  "karnataka": [
+    {
+      "name": "Bengaluru",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "height": 0.4
+    },
+    {
+      "name": "Mysuru",
+      "lat": 12.2958,
+      "lng": 76.6394,
+      "height": 0.35
+    },
+    {
+      "name": "Hampi",
+      "lat": 15.335,
+      "lng": 76.46,
+      "height": 0.3
+    }
+  ],
+  "maharashtra": [
+    {
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "height": 0.1
+    },
+    {
+      "name": "Pune",
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "height": 0.4
+    },
+    {
+      "name": "Aurangabad",
+      "lat": 19.8762,
+      "lng": 75.3433,
+      "height": 0.45
+    }
+  ],
+  "manipur": [
+    {
+      "name": "Imphal",
+      "lat": 24.817,
+      "lng": 93.9368,
+      "height": 0.5
+    },
+    {
+      "name": "Loktak",
+      "lat": 24.55,
+      "lng": 93.78,
+      "height": 0.45
+    },
+    {
+      "name": "Ukhrul",
+      "lat": 25.11,
+      "lng": 94.36,
+      "height": 0.75
+    }
+  ],
+  "meghalaya": [
+    {
+      "name": "Shillong",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "height": 0.65
+    },
+    {
+      "name": "Sohra",
+      "lat": 25.3,
+      "lng": 91.7,
+      "height": 0.6
+    },
+    {
+      "name": "Dawki",
+      "lat": 25.186,
+      "lng": 92.017,
+      "height": 0.25
+    }
+  ],
+  "mizoram": [
+    {
+      "name": "Aizawl",
+      "lat": 23.7271,
+      "lng": 92.7176,
+      "height": 0.7
+    },
+    {
+      "name": "Reiek",
+      "lat": 23.69,
+      "lng": 92.6,
+      "height": 0.75
+    },
+    {
+      "name": "Champhai",
+      "lat": 23.456,
+      "lng": 93.329,
+      "height": 0.65
+    }
+  ],
+  "nagaland": [
+    {
+      "name": "Dimapur",
+      "lat": 25.909,
+      "lng": 93.727,
+      "height": 0.25
+    },
+    {
+      "name": "Kohima",
+      "lat": 25.6751,
+      "lng": 94.1086,
+      "height": 0.7
+    },
+    {
+      "name": "Khonoma",
+      "lat": 25.65,
+      "lng": 94.02,
+      "height": 0.65
+    }
+  ],
+  "odisha": [
+    {
+      "name": "Bhubaneswar",
+      "lat": 20.2961,
+      "lng": 85.8245,
+      "height": 0.15
+    },
+    {
+      "name": "Puri",
+      "lat": 19.8135,
+      "lng": 85.8312,
+      "height": 0.08
+    },
+    {
+      "name": "Chilika",
+      "lat": 19.715,
+      "lng": 85.32,
+      "height": 0.05
+    }
+  ],
+  "punjab": [
+    {
+      "name": "Amritsar",
+      "lat": 31.634,
+      "lng": 74.8723,
+      "height": 0.2
+    },
+    {
+      "name": "Bathinda",
+      "lat": 30.211,
+      "lng": 74.9455,
+      "height": 0.22
+    }
+  ],
+  "sikkim": [
+    {
+      "name": "Gangtok",
+      "lat": 27.3389,
+      "lng": 88.6065,
+      "height": 0.75
+    },
+    {
+      "name": "Pelling",
+      "lat": 27.318,
+      "lng": 88.243,
+      "height": 0.8
+    },
+    {
+      "name": "Ravangla",
+      "lat": 27.307,
+      "lng": 88.357,
+      "height": 0.7
+    }
+  ],
+  "tamil-nadu": [
+    {
+      "name": "Chennai",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "height": 0.08
+    },
+    {
+      "name": "Mahabalipuram",
+      "lat": 12.6208,
+      "lng": 80.1945,
+      "height": 0.08
+    },
+    {
+      "name": "Madurai",
+      "lat": 9.9252,
+      "lng": 78.1198,
+      "height": 0.2
+    }
+  ],
+  "telangana": [
+    {
+      "name": "Hyderabad",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "height": 0.35
+    },
+    {
+      "name": "Warangal",
+      "lat": 17.9689,
+      "lng": 79.5941,
+      "height": 0.3
+    },
+    {
+      "name": "Nagarjuna Sagar",
+      "lat": 16.574,
+      "lng": 79.312,
+      "height": 0.2
+    }
+  ],
+  "tripura": [
+    {
+      "name": "Agartala",
+      "lat": 23.8315,
+      "lng": 91.2868,
+      "height": 0.2
+    },
+    {
+      "name": "Udaipur",
+      "lat": 23.533,
+      "lng": 91.481,
+      "height": 0.25
+    },
+    {
+      "name": "Unakoti",
+      "lat": 24.317,
+      "lng": 92.067,
+      "height": 0.4
+    }
+  ],
+  "uttar-pradesh": [
+    {
+      "name": "Agra",
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "height": 0.18
+    },
+    {
+      "name": "Lucknow",
+      "lat": 26.8467,
+      "lng": 80.9462,
+      "height": 0.18
+    },
+    {
+      "name": "Varanasi",
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "height": 0.15
+    }
+  ],
+  "uttarakhand": [
+    {
+      "name": "Dehradun",
+      "lat": 30.3165,
+      "lng": 78.0322,
+      "height": 0.45
+    },
+    {
+      "name": "Rishikesh",
+      "lat": 30.0869,
+      "lng": 78.2676,
+      "height": 0.35
+    },
+    {
+      "name": "Nainital",
+      "lat": 29.3803,
+      "lng": 79.4636,
+      "height": 0.75
+    }
+  ],
+  "west-bengal": [
+    {
+      "name": "Kolkata",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "height": 0.08
+    },
+    {
+      "name": "Darjeeling",
+      "lat": 27.036,
+      "lng": 88.2627,
+      "height": 0.85
+    },
+    {
+      "name": "Kalimpong",
+      "lat": 27.066,
+      "lng": 88.47,
+      "height": 0.7
+    }
+  ],
+  "andaman-and-nicobar-islands": [
+    {
+      "name": "Port Blair",
+      "lat": 11.6234,
+      "lng": 92.7265,
+      "height": 0.08
+    },
+    {
+      "name": "Swaraj Dweep",
+      "lat": 12.03,
+      "lng": 92.98,
+      "height": 0.07
+    },
+    {
+      "name": "Shaheed Dweep",
+      "lat": 11.83,
+      "lng": 93.04,
+      "height": 0.06
+    }
+  ],
+  "chandigarh": [
+    {
+      "name": "Capitol",
+      "lat": 30.759,
+      "lng": 76.805,
+      "height": 0.25
+    },
+    {
+      "name": "Sukhna",
+      "lat": 30.742,
+      "lng": 76.818,
+      "height": 0.25
+    },
+    {
+      "name": "Rock Garden",
+      "lat": 30.752,
+      "lng": 76.81,
+      "height": 0.25
+    }
+  ],
+  "dadra-and-nagar-haveli-and-daman-and-diu": [
+    {
+      "name": "Daman",
+      "lat": 20.3974,
+      "lng": 72.8328,
+      "height": 0.08
+    },
+    {
+      "name": "Diu",
+      "lat": 20.714,
+      "lng": 70.987,
+      "height": 0.08
+    },
+    {
+      "name": "Silvassa",
+      "lat": 20.276,
+      "lng": 73.008,
+      "height": 0.2
+    }
+  ],
+  "delhi": [
+    {
+      "name": "Old Delhi",
+      "lat": 28.6562,
+      "lng": 77.241,
+      "height": 0.2
+    },
+    {
+      "name": "New Delhi",
+      "lat": 28.5933,
+      "lng": 77.2507,
+      "height": 0.2
+    },
+    {
+      "name": "Qutub",
+      "lat": 28.5245,
+      "lng": 77.1855,
+      "height": 0.2
+    }
+  ],
+  "ladakh": [
+    {
+      "name": "Leh",
+      "lat": 34.1526,
+      "lng": 77.5771,
+      "height": 0.95
+    },
+    {
+      "name": "Nubra",
+      "lat": 34.6,
+      "lng": 77.55,
+      "height": 0.85
+    },
+    {
+      "name": "Pangong",
+      "lat": 33.8,
+      "lng": 78.6,
+      "height": 1.1
+    }
+  ],
+  "lakshadweep": [
+    {
+      "name": "Agatti",
+      "lat": 10.85,
+      "lng": 72.18,
+      "height": 0.05
+    },
+    {
+      "name": "Bangaram",
+      "lat": 10.94,
+      "lng": 72.29,
+      "height": 0.05
+    },
+    {
+      "name": "Kavaratti",
+      "lat": 10.5667,
+      "lng": 72.6369,
+      "height": 0.05
+    }
+  ],
+  "puducherry": [
+    {
+      "name": "Puducherry",
+      "lat": 11.9416,
+      "lng": 79.8083,
+      "height": 0.08
+    },
+    {
+      "name": "Auroville",
+      "lat": 12.005,
+      "lng": 79.81,
+      "height": 0.1
+    },
+    {
+      "name": "Chunnambar",
+      "lat": 11.88,
+      "lng": 79.8,
+      "height": 0.05
+    }
+  ],
+  "jammu-and-kashmir": [
+    {
+      "name": "Srinagar",
+      "lat": 34.0837,
+      "lng": 74.7973,
+      "height": 0.55
+    },
+    {
+      "name": "Gulmarg",
+      "lat": 34.048,
+      "lng": 74.38,
+      "height": 0.85
+    },
+    {
+      "name": "Pahalgam",
+      "lat": 34.016,
+      "lng": 75.315,
+      "height": 0.75
+    },
+    {
+      "name": "Sonamarg",
+      "lat": 34.3,
+      "lng": 75.29,
+      "height": 0.9
+    }
+  ]
+}
