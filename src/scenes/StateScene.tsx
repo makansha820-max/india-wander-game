@@ -1,6 +1,5 @@
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState, Component, type ReactNode } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Text } from "@react-three/drei";
 import { Physics } from "@react-three/rapier";
 import * as THREE from "three";
 import { getGameState, getNextState } from "../data/gameStates";
@@ -229,11 +228,11 @@ function GameLevel({
 
   return (
     <>
-      <ambientLight intensity={0.55} />
-      <hemisphereLight args={["#c9e4ff", "#5c4033", 0.45]} />
+      <ambientLight intensity={0.85} />
+      <hemisphereLight args={["#c9e4ff", "#5c4033", 0.65]} />
       <directionalLight
         position={[10, 16, 8]}
-        intensity={1.35}
+        intensity={1.55}
         castShadow
         shadow-mapSize={[2048, 2048]}
         shadow-camera-far={50}
@@ -242,19 +241,8 @@ function GameLevel({
         shadow-camera-top={18}
         shadow-camera-bottom={-18}
       />
-      <fog attach="fog" args={["#d9cbb4", 24, 55]} />
-      {/* Local lights only — no external HDR (blocked by CSP on Vercel) */}
-
-      <Text
-        position={[0, 4.5, 0]}
-        fontSize={0.4}
-        color="#fff8e7"
-        anchorX="center"
-        outlineWidth={0.02}
-        outlineColor="#1c1914"
-      >
-        {`${state.name} · stay inside the red border`}
-      </Text>
+      <fog attach="fog" args={["#d9cbb4", 28, 65]} />
+      {/* No Environment / Text — both fetch CDNs blocked by CSP on Vercel */}
 
       <Physics gravity={[0, -16, 0]}>
         <World

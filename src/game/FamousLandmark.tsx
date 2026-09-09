@@ -1,4 +1,4 @@
-import { Billboard, Text, useTexture } from "@react-three/drei";
+import { Billboard, useTexture } from "@react-three/drei";
 import type { LandmarkKind } from "../data/gameStates";
 import { landmarkArtFor } from "../data/landmarkArt";
 
@@ -8,20 +8,18 @@ interface FamousLandmarkProps {
   position: [number, number, number];
   near: boolean;
   hasCoin: boolean;
-  /** Hide name when spots cluster — only nearest shows text. */
   showLabel?: boolean;
 }
 
+/** Landmark billboard — no 3D Text (CDN fonts break under Vercel CSP). */
 export function FamousLandmark({
   name,
   kind,
   position,
   near,
   hasCoin,
-  showLabel = true,
 }: FamousLandmarkProps) {
-  const src = landmarkArtFor(name, kind);
-  const texture = useTexture(src);
+  const texture = useTexture(landmarkArtFor(name, kind));
   texture.anisotropy = 8;
   const scale = near ? 2.2 : 1.75;
 
@@ -30,34 +28,26 @@ export function FamousLandmark({
       <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.02, 0]}>
         <circleGeometry args={[0.75, 20]} />
         <meshStandardMaterial
-          color={near ? "#f5e6c8" : "#d6c6a8"}
+          color={hasCoin ? (near ? "#f5e6c8" : "#e8d5a8") : "#9ca3af"}
           roughness={0.9}
-          transparent
-          opacity={0.9}
         />
       </mesh>
 
       <Billboard follow position={[0, 1.05, 0]}>
         <mesh scale={[scale, scale, 1]}>
           <planeGeometry args={[1.5, 1.5]} />
-          <meshBasicMaterial map={texture} transparent alphaTest={0.12} depthWrite={false} />
+          <meshBasicMaterial map={texture} transparent alphaTest={0.08} depthWrite={false} />
         </mesh>
       </Billboard>
 
-      {(showLabel || near) && (
-        <Text
-          position={[0, near ? 2.35 : 2.15, 0]}
-          fontSize={near ? 0.24 : 0.15}
-          color={hasCoin ? "#f5c842" : "#e7e5e4"}
-          anchorX="center"
-          outlineWidth={0.014}
-          outlineColor="#1c1914"
-          maxWidth={2.8}
-          fillOpacity={near ? 1 : 0.85}
-        >
-          {name}
-        </Text>
-      )}
+      <mesh position={[0, near ? 2.15 : 1.95, 0]}>
+        <sphereGeometry args={[0.12, 10, 10]} />
+        <meshStandardMaterial
+          color={hasCoin ? "#f5c842" : "#94a3b8"}
+          emissive={near ? "#f59e0b" : "#000000"}
+          emissiveIntensity={near ? 0.55 : 0}
+        />
+      </mesh>
     </group>
   );
 }

@@ -287,12 +287,8 @@ export function Player({
       new THREE.Vector3(0, 1, 0),
       facing.current * 0.18,
     );
-    camera.position.lerp(target.clone().add(offset), 0.045);
-    // Soft look — ease toward player instead of snapping
-    const look = new THREE.Vector3().copy(camera.getWorldDirection(new THREE.Vector3()));
-    const desired = target.clone().sub(camera.position).normalize();
-    look.lerp(desired, 0.08);
-    camera.lookAt(camera.position.clone().add(look));
+    camera.position.lerp(target.clone().add(offset), 0.08);
+    camera.lookAt(target);
   });
 
   const spawn: [number, number, number] = [
