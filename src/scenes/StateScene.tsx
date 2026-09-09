@@ -241,7 +241,7 @@ function GameLevel({
         shadow-camera-top={18}
         shadow-camera-bottom={-18}
       />
-      <fog attach="fog" args={["#d9cbb4", 28, 65]} />
+      <fog attach="fog" args={["#b8c9d9", 40, 90]} />
       {/* No Environment / Text — both fetch CDNs blocked by CSP on Vercel */}
 
       <Physics gravity={[0, -16, 0]}>
@@ -363,7 +363,7 @@ export function StateScene({ slug, onExit, onStateComplete }: StateSceneProps) {
           shadows
           camera={{ position: [0, 12, 14], fov: 50, near: 0.1, far: 80 }}
           onCreated={({ gl }) => {
-            gl.setClearColor("#d9cbb4");
+            gl.setClearColor("#87b5d9");
           }}
         >
           <Suspense fallback={<CanvasLoader />}>

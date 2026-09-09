@@ -1,5 +1,4 @@
 import { useMemo } from "react";
-import { useTexture } from "@react-three/drei";
 import { RigidBody } from "@react-three/rapier";
 import * as THREE from "three";
 import type { Biome, WaterZone } from "../data/gameStates";
@@ -126,17 +125,12 @@ function RoadSegment({
 /** Real state outline as walkable extruded terrain + glowing border. */
 function StateShapeTerrain({
   boundary,
-  diorama,
   groundColor,
 }: {
   boundary: StateBoundary;
   diorama: string;
   groundColor: string;
 }) {
-  const texture = useTexture(diorama);
-  texture.colorSpace = THREE.SRGBColorSpace;
-  texture.wrapS = texture.wrapT = THREE.ClampToEdgeWrapping;
-
   const { shapeGeo, edgePoints } = useMemo(() => {
     const worldRing = projectRingToWorld(boundary.ring, boundary.bbox);
     const shape = new THREE.Shape();
@@ -146,43 +140,31 @@ function StateShapeTerrain({
     });
     const shapeGeo = new THREE.ShapeGeometry(shape);
     shapeGeo.rotateX(-Math.PI / 2);
-
-    const uv = shapeGeo.attributes.uv;
-    const pos = shapeGeo.attributes.position;
-    for (let i = 0; i < pos.count; i++) {
-      const x = pos.getX(i);
-      const z = pos.getZ(i);
-      uv.setXY(i, x / TERRAIN_WIDTH + 0.5, z / TERRAIN_DEPTH + 0.5);
-    }
-    uv.needsUpdate = true;
-
     return { shapeGeo, edgePoints: worldRing };
   }, [boundary]);
 
   const edgeGeom = useMemo(() => {
-    const pts = edgePoints.map(([x, z]) => new THREE.Vector3(x, 0.35, z));
+    const pts = edgePoints.map(([x, z]) => new THREE.Vector3(x, 0.4, z));
+    if (pts.length && !pts[0].equals(pts[pts.length - 1])) pts.push(pts[0].clone());
     return new THREE.BufferGeometry().setFromPoints(pts);
   }, [edgePoints]);
 
   return (
     <group>
-      <RigidBody type="fixed" colliders="cuboid" friction={1.5} position={[0, 0, 0]}>
-        <mesh receiveShadow position={[0, -0.05, 0]}>
-          <boxGeometry args={[TERRAIN_WIDTH + 4, 0.3, TERRAIN_DEPTH + 4]} />
-          <meshStandardMaterial color="#3f2e1f" transparent opacity={0.35} />
+      {/* Always-visible base so the map never looks empty */}
+      <RigidBody type="fixed" colliders="cuboid" friction={1.5}>
+        <mesh receiveShadow position={[0, -0.08, 0]}>
+          <boxGeometry args={[TERRAIN_WIDTH + 6, 0.35, TERRAIN_DEPTH + 6]} />
+          <meshStandardMaterial color="#4a3728" />
         </mesh>
       </RigidBody>
 
-      <mesh geometry={shapeGeo} receiveShadow position={[0, 0.2, 0]} castShadow>
-        <meshStandardMaterial map={texture} roughness={0.88} metalness={0.04} />
-      </mesh>
-
-      <mesh geometry={shapeGeo} position={[0, 0.05, 0]} receiveShadow>
-        <meshStandardMaterial color={groundColor} roughness={1} />
+      <mesh geometry={shapeGeo} receiveShadow position={[0, 0.22, 0]} castShadow>
+        <meshStandardMaterial color={groundColor} roughness={0.92} metalness={0.02} />
       </mesh>
 
       <lineLoop geometry={edgeGeom}>
-        <lineBasicMaterial color="#dc2626" />
+        <lineBasicMaterial color="#ef4444" linewidth={2} />
       </lineLoop>
     </group>
   );
